@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Basic HTML Website</title>
+</head>
+<body class="font-roboto bg-gray-50" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
+    <header>
+        <nav class="flex sm:justify-between items-center p-4">
+            <h3 class="flex items-center text-xl">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 7.5-2.25-1.313M21 7.5v2.25m0-2.25-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3 2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75 2.25-1.313M12 21.75V19.5m0 2.25-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25" />
+                  </svg>              
+                Gandega
+            </h3>
+            <div>
+                <a href="homepage.html">Home</a> /
+                <a href="projects.html">Projects</a> /
+                <a href="articles.html">Articles</a> /
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="mx-auto p-4">
+        <table class="w-full table-auto bg-white">
+            <thead class="bg-gray-100 border-b-2 border-gray-700">
+                <tr class="text-left text-lg">
+                    <th class="p-4">Project</th>
+                    <th class="p-4 w-1/3">Description</th>
+                    <th class="p-4">Features</th>
+                    <th class="p-4">Link</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100 sm:divide-y-0 border-b-2 border-gray-700 ">
+                <tr class="mx-1 border-b border-gray-300">
+                    <td>Calculator</td>
+                    <td>This is a basic calculator. A calculator application that allows users to perform basic arithmetic operations (addition, subtraction, multiplication, division) using a simple user interface.
+                    </td>
+                    <td>
+                        <ul class="list-disc list-inside">
+                            <li>Input fields for users to enter numbers</li>
+                            <li>Buttons for addition, subtraction, multiplication, and division</li>
+                            <li>Display area to show the result of the calculation</li>
+                            <li>Error handling for invalid inputs (e.g., division by zero)</li>
+                        </ul>
+                    </td>
+                    <td><a href="https://github.com" target="_blank">Link</a></td>
+                </tr>
+                <tr class="mx-1 border-b border-gray-200">
+                    <td>Chat App</td>
+                    <td>This is a basic chat application. A chat application that allows users to communicate with each other using a simple user interface.</td>
+                    <td>
+                        <ul class="list-disc list-inside">
+                            <li>Input fields for users to enter their names and messages</li>
+                            <li>Buttons for sending messages</li>
+                            <li>Display area to show the chat history</li>
+                        </ul>
+                    </td>
+                    <td><a href="https://github.com" target="_blank">Link</a></td>
+                </tr>
+                <tr class="mx-1 border-b border-gray-300">
+                    <td>Weather App</td>
+                    <td>This is a basic weather application. A weather application that allows users to check the weather forecast for a specific location using a simple user interface.</td>
+                    <td>
+                        <ul class="list-disc list-inside">
+                            <li>Input field for users to enter their location</li>
+                            <li>Button for searching the weather forecast</li>
+                            <li>Display area to show the weather forecast</li>
+                        </ul>
+                    </td>
+                    <td><a href="https://github.com" target="_blank">Link</a></td>
+                </tr>
+                <tr class="mx-1 border-y border-gray-300">
+                    <td>ToDo App</td>
+                    <td>This is a basic To-Do list application. A To-Do list application that allows users to add, edit, and delete tasks using a simple user interface.</td>
+                    <td>
+                        <ul class="list-disc list-inside">
+                            <li>Input fields for users to enter their task</li>
+                            <li>Buttons for adding, editing, and deleting tasks</li>
+                            <li>Display area to show the list of tasks</li>
+                        </ul>
+                    </td>
+                    <td><a href="https://github.com" target="_blank">Link</a></td>
+                </tr>
+                <tr class="mx-1 border-y border-gray-300">
+                    <td>Blog App</td>
+                    <td>This is a basic blog application. A blog application that allows users to create, read, update, and delete blog posts using a simple user interface.</td>
+                    <td>
+                        <ul class="list-disc list-inside">
+                            <li>Input fields for users to enter their blog post title and content</li>
+                            <li>Buttons for creating, reading, updating, and deleting blog posts</li>
+                            <li>Display area to show the list of blog posts</li>
+                        </ul>
+                    </td>
+                    <td><a href="https://github.com" target="_blank">Link</a></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer class="p-4 italic text-center text-sm">
+        © All rights reserved, Yours Truly
+    </footer>
+</body>
+</html>
